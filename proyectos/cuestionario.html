@@ -1,0 +1,83 @@
+<form action="cuestionarios_educaticos.html" method="post">
+    
+    <h1>cuestionario</h1>
+    <label>nombre</label>
+    <br>
+    <input type="text" name="nombre" id="nombre" required>
+    <br>
+    <label>apellido</label>
+    <br>
+    <input type="text" name="apellido" id="apellido" required>
+    <br>
+    <label>tipo de documento</label>
+    <br>
+    <select name="tipo" id="tipo">
+        <option value="1">tarjeta de identidad</option>
+        <option value="2">cedula de ciudadania </option>
+        <option value="3">cedula de extranjeria</option>
+    </select>
+    <br>
+    <label>numero de documento</label>
+    <br>
+    <input type="number" name="documento" id="documento" required>
+    <br>
+    <label>seleccione con cuales de los siguientes servicios publicos cuenta en su vivienda</label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="internet">
+        internet
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="agua">
+        agua
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="energia">
+        energia
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="gas">
+        gas
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="alcantarillado">
+        alcantarillado
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="todas_las_anteriores">
+        todas las anteriores 
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="ninguno">
+        ninguno
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="servicios" id="servicios" value="otro">
+        otro
+    </label>
+    <br>
+    <label>zona de residencia</label>
+    <br>
+    <select name="zona" id="zona" required>
+        <option value="1">urbana</option>
+        <option value="2">rural</option>
+    </select>
+    <br>
+    <label>nombre de un contacto de una persona en caso de una emergencia</label>
+    <br>
+    <input type="text" name="contacto" id="contacto" required>
+    <br>
+    <label>escribe un numero de contacto telefónico en caso de una emergencia</label>
+    <br>
+    <input type="number" name="numero" id="numero" required>
+    <br>
+    <input type="submit" value="enviar">
+
+</form>

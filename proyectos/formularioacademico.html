@@ -1,0 +1,89 @@
+<form action="cuestionarios_academicos.html" method="post">
+    
+    <h1>cuestionario academico</h1>
+    <br>
+    <label>nombre</label>
+    <br>
+    <input type="text" name="nombre" id="nombre"required>
+    <br>
+    <label>apellido</label>
+    <br>
+    <input type="text" name="apellido" id="apellido" required>
+    <br>
+    <label>correo institucional</label>
+    <br>
+    <input type="email" name="correo" id="correo" required>
+    <br>
+    <label>correo personal</label>
+    <br>
+    <input type="number" name="correopersonal" id="correopersonal" readonly>
+    <br>
+    <label>numero de documento</label>
+    <br>
+    <input type="number" name="documento" id="documento" required>
+    <br>
+    <label>numero de telefono</label>
+    <br>
+    <input type="number" name="telefono" id="telefono" required>
+    <br>
+    <label>que sede del itfip estas</label>
+    <br>
+    <select name="itfip" id="itfip">
+        <option value="1">sede principal "el espinal"</option>
+        <option value="2">sede de chaparral</option>
+        <option value="3">sede de tocaima</option>
+        <option value="4">sede de flandes</option>
+
+    </select>
+    <br>
+    <label>seleccionela facultad a la que persenece</label>
+    <br>
+    <label>
+        <input type="checkbox" name="facultad" id="facultad" 
+        value="ingenieria y ciencias agroindustriales">
+        ingenieria y ciencias agroindustriales
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="facultad" id="facultad" 
+        value="ciencias sociales salud y educacion">
+        ciencias sociales salud y educacion
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="facultad" id="facultad" 
+        value="economia, administracion y contaduria">
+        economia, administracion y contaduria
+    </label>
+    <br>
+    <label>que jornada es</label>
+    <br>
+    <select name="jornada" id="jornada" required>
+        <option value="1">diurno</option>
+        <option value="2">nocturno</option>
+    </select>
+    <br>
+    <label>que grupo pertenese</label>
+    <br>
+    <label>
+        <input type="checkbox" name="grupo" id="grupo"
+        value="a">
+        A
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="grupo" id="grupo"
+        value="B">
+        B
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="grupo" id="grupo"
+        value="C">
+        C
+    </label>
+    <br>
+    <br><input type="submit" value="enviar">
+    
+
+</form>
